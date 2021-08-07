@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+:root{
+    --width-center:600px;
+    --primary-color:#F59E0B;
+    --off-white:#E5E7EB;    
+}
+
+body {
+    margin: 0px;
+    font-family: 'Palette Mosaic', cursive;
+    background-color:var(--primary-color);
+}
+.container {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-center);
+}
+
+
+#btn-translate {
+    border:none;
+    background-color:var(--off-white);
+    margin: 1rem;
+    padding: 1rem; 
+    font-size: large;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-family: 'Palette Mosaic', cursive;
+}
+
+textarea {
+    height: 5rem;
+    width: 80%;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color:var(--off-white);
+    font-family: 'Palette Mosaic', cursive;
+    font-size: large;
+}
+
+h1 {
+    background-color:var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#output {
+    height: 5rem;
+    width: 80%;
+    border: 1px solid black;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    background-color:var(--off-white);
+    border-radius: 1rem;
+    font-size: large;
+}
+footer {
+    background-color: var(--primary-color);
+    margin-left: 2rem;
+}
+footer p {
+    font-weight: normal;
+}
+footer div {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
